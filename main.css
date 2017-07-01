@@ -1,0 +1,50 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1900px;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.parallax {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax h1 {
+  text-align: center;
+  padding-top: 280px;
+  font-size: 3em;
+  color: #FFF;
+  text-shadow: 5px 12px 4px #3c3e30;
+}
+
+.img-1 {
+  background-image: url("parallax1.jpg");
+}
+
+.img-2 {
+  background-image: url("parallax2.jpg");
+}
+
+.text-container {
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 80px 20%;
+  text-align:center;
+  box-shadow: inset 2px 2px 8px 0px #000;
+}
+
+footer {
+  background-color: #1d1d1d;
+  padding: 20px 20%;
+  text-align: center;
+  color: #fff;
+}
